@@ -56,14 +56,3 @@ for tr in tag_tr:
         '제작사' : tr.select("tr td:nth-of-type(10)")[0].get_text(strip=True),
     }
     print(영화정보)
-
-
-
-
-
-
-
-
-
-
-

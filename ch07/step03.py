@@ -1,3 +1,4 @@
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -68,12 +69,3 @@ df = pd.DataFrame(영화정보_리스트)
 
 # CSV 파일로 저장
 df.to_csv("./movie_list.csv", index=False, encoding="utf-8")
-
-
-
-
-
-
-
-
-

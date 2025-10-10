@@ -11,7 +11,7 @@ print(selected_df.head())
 
 kor_df = selected_df[selected_df['location'] == 'South Korea']
 print('='*50)
-print(kor_df)
+print(kor_df.head())
 
 #date컬럼을 index로 지정
 index_name = 'date'
@@ -24,6 +24,8 @@ kor_covid_file_name = './data/covid_kor.csv'
 if os.path.exists(kor_covid_file_name):
     os.remove(kor_covid_file_name)
 kor_index_df.to_csv(kor_covid_file_name)
+#kor_index_df.to_csv(kor_covid_file_name, sep='|', encoding='utf-8')
+#kor_index_df.to_csv(kor_covid_file_name, encoding='utf-8', sep='|')
 
 #미국 코로나 발생 데이터 -> df(usa_index_df)
 # -> 실습!!!!
