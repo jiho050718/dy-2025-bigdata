@@ -23,3 +23,4 @@ df = pd.DataFrame(
     , index=index_data)
 df.plot.line()
 plt.show()
+

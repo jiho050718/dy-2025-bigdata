@@ -26,3 +26,5 @@ def init_matplotlib():
     # 한글폰트 처리(깨짐처리)
     rc('font', family=get_font_name())
     plt.rcParams['axes.unicode_minus'] = False
+
+

@@ -1,12 +1,21 @@
-tuple_value = ['1', '2', '3']
-list_value = ['4', '5', '6']
-
-print(tuple_value)
-print(list_value)
+your_book = [2002, '파이썬', '파이썬', '파이썬', 200]
+print(type(your_book))
+print(your_book)
 
 
-tuple_to_list = tuple_value
-print(tuple_to_list)
+#기존데이터변경
+your_book[0] = 2025
+print(your_book)
 
-list_to_tuple = list(tuple_value)
-print(list_to_tuple)
+#추가도 가능
+your_book.append('파이썬 프로그래밍')
+print(your_book)
+
+your_book.insert(1, '프로그래밍 과목')
+print(your_book)
+
+#삭제
+if '파이썬2' in your_book:
+    your_book.remove('파이썬2')
+print(your_book)
+

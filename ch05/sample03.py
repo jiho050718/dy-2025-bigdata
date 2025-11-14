@@ -25,3 +25,4 @@ df = pd.DataFrame(
 )
 df.plot.line()
 plt.show()
+

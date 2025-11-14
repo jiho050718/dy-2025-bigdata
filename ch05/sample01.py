@@ -42,3 +42,9 @@ usa_covid_file_name = './data/covid_usa.csv'
 if os.path.exists(usa_covid_file_name):
     os.remove(usa_covid_file_name)
 usa_index_df.to_csv(usa_covid_file_name)
+
+
+
+
+
+
