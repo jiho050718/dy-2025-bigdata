@@ -30,7 +30,3 @@ plt.tight_layout()
 # plt.show()
 
 plt.savefig('./lang_info.png')
-
-
-
-

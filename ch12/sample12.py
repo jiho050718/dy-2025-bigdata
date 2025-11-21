@@ -30,4 +30,3 @@ print('-'*50)
 print(join_data)
 
 join_data.to_csv('./seoul-inout.csv')
-
