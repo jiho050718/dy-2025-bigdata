@@ -50,6 +50,3 @@ hi_data_file = './hi_data.csv'
 if os.path.exists(hi_data_file):
     os.remove(hi_data_file)
 df_raw_filter.to_csv(hi_data_file)
-
-
-
